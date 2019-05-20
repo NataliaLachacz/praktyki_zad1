@@ -1,5 +1,5 @@
 # praktyki_zad1
 stylowanie wg wzoru
 
-<h1>Live</h1>
+<h2>Live</h2>
 https://natalialachacz.github.io/praktyki_zad1/
