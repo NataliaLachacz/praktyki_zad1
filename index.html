@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dairy</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/Styles/style.css">
+</head>
+<body>
+<!-- NAVBAR -->
+    <div class="fixed-top navigation">
+        <!-- NAVBAR HAMBURGER -->
+      <div class="d-flex navigation__container">
+        <nav class="navigation__hamburger">
+          <label for="hamburger-menu"><img src="/assets/Icons/menu.svg" alt="hamburger icon"></label>
+          <input type="checkbox" id="hamburger-menu">
+          <!-- MENU -->
+          <ul>
+            <li><a href="#">menu item 1</a></li>
+            <li><a href="#">menu item 2</a></li>
+            <li><a href="#">menu item 3</a></li>
+            <li><a href="#">menu item 4</a></li>
+          </ul>
+        </nav>
+        <!-- NAVBAR TITLE-->
+        <div class="navigation__title">
+          <h1 class="text-white">Diary</h1>
+        </div>
+      </div>
+        <!-- NAVBAR-DATE -->
+        <div class="text-center navigation__date">
+          <p class="d-none d-md-inline text-white"><u>January</u> <u>2015</u></p>
+        </div>        
+        <!-- NAVBAR-ICONS -->
+      <div class="d-flex navigation__container">
+        <div class="d-flex navigation__icons">
+          <img src="/assets/Icons/add.svg" alt="add icon">
+          <img src="/assets/Icons/month.svg" alt="month icon">
+          <img src="/assets/Icons/search.svg" alt="search icon">
+          <img class="navigation__icons--number" src="/assets/Icons/notification.svg" alt="notification icon">
+        </div>
+        <div class="navigation__user">
+          <img src="https://source.unsplash.com/featured/?portrait" alt="user image">
+        </div>
+      </div>
+    </div>
+<!-- GALLERY -->
+    <main class="container gallery">
+      <!-- GALLERY 1TH ROW -->
+      <div class="row gallery__row">
+        <div class="col-6 col-lg-2 my-2 p-0 text-white text-center align-content-center gallery__col"><span class="gallery__item gallery__item--blue"><b>Add</b> photo</span></div>
+        <div class="col-6 col-lg-2 my-2 p-0 gallery__col"><img class="img-fluid gallery__item" src="assets/Photos/foto-5.jpg" alt=""></div>
+        <div class="col-lg-4 my-2 p-0 gallery__col"><img class="img-fluid gallery__item" src="assets/Photos/foto-3.jpg" alt=""></div>
+        <div class="col-lg-4 my-2 p-0 gallery__col"><img class="img-fluid gallery__item" src="assets/Photos/foto-1.jpg" alt=""></div>
+      </div>
+      <!-- GALLERY 2ND ROW -->
+      <div class="row gallery__row">
+        <!--  OVERLAY ITEM-->
+        <div class="col-lg-4 my-2 p-0 gallery__col overlay">
+          <div class="overlay--text">
+              <h2>My laptop</h2>
+              <p>11.12.2014</p>
+          </div>
+          <div class="overlay--color"></div> 
+          <img class="img-fluid gallery__item" src="assets/Photos/foto-6.jpg" alt="">
+        </div>
+        <div class="col-lg-4 my-2 p-0 gallery__col"><img class="img-fluid gallery__item" src="assets/Photos/foto-4.jpg" alt=""></div>
+        <div class="col-lg-2 my-2 p-0 gallery__col"><img class="img-fluid gallery__item" src="assets/Photos/foto-3.jpg" alt=""></div>
+        <div class="col-lg-2 my-2 p-0 gallery__col"><img class="img-fluid gallery__item" src="assets/Photos/foto-2.jpg" alt=""></div>
+      </div>
+      <!-- GALLERY 3RD ROW -->
+      <div class="row gallery__row">
+        <div class="col-lg-8 my-2 p-0 gallery__col"><img class="img-fluid gallery__item" src="assets/Photos/foto-2.jpg" alt=""></div>
+        <!--  OVERLAY ITEM -->
+        <div class="col-lg-2 my-2 p-0 gallery__col overlay">
+          <div class="overlay--text">
+            <h2>Very long...</h2>
+            <p>11.12.2014</p>
+          </div>
+          <div class="overlay--color"></div>
+          <img class="img-fluid gallery__item" src="assets/Photos/foto-5.jpg" alt="">
+        </div>
+        <div class="col-lg-2 my-2 p-0 gallery__col"><img class="img-fluid gallery__item" src="assets/Photos/foto-6.jpg" alt=""></div>
+      </div>
+    </main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
