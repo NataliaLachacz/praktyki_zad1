@@ -196,7 +196,6 @@ body {
 
 .gallery__col {
   height: 150px;
-  overflow: hidden;
 }
 
 .gallery__col img {
